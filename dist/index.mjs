@@ -23044,8 +23044,8 @@ function setup() {
                 ],
             });
             const scriptUrl = moduleType === "CommonJS"
-                ? "https://raw.githubusercontent.com/tfmurad/tina-schema-generator-ts/main/dist/scripts/generate-tina-schema.cjs"
-                : "https://raw.githubusercontent.com/tfmurad/tina-schema-generator-ts/main/dist/scripts/generate-tina-schema.mjs";
+                ? "https://raw.githubusercontent.com/tfmurad/test-tina/main/dist/scripts/generate-tina-schema.cjs"
+                : "https://raw.githubusercontent.com/tfmurad/test-tina/main/dist/scripts/generate-tina-schema.mjs";
             yield fetchAndRunScript(scriptUrl);
         }
         catch (error) {
